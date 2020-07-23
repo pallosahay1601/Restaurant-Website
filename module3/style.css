@@ -1,0 +1,93 @@
+body {
+  font-size: 16px;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color: #3cb371;
+  border-radius: 0;
+  border: 0;
+  padding:10px;
+}
+#heading
+{
+	color:black;
+	font-size:30px;
+	font-weight:bold;
+	margin-left:20px;
+	margin-top:-5px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+#collapsable-nav
+{
+	background-color:#92B7FE;
+	border:2px solid black;
+	margin-top:-20px;
+	width:100%;
+	font-weight:bold;
+
+}
+hr
+{
+	width:90%;
+	height:1px;
+	border-width:0;
+	margin-top:0;
+	margin-bottom:0;
+	margin-left:auto;
+	margin-right:auto;
+	color:black;
+	background-color:black
+}
+
+#main-content
+{
+	margin:15px;
+	
+}
+h2
+{
+	font-weight: bold;
+	margin-top:5px;
+}
+#x{
+	margin-top:30px;
+}
+#main-content>div
+{
+	border:1px solid black;
+	padding:10px;
+	background-color:#9ee0be ;
+	margin-bottom:15px;
+	
+}
+#a,#b,#c
+{
+	font-weight:bold;
+	font-size:20px;
+}
+p{
+	margin-top:15px;
+}
+@media(max-width:767px)
+{
+
+	p
+	{
+		padding:15px;
+		margin-top:-10px;
+	}
+	#main-content
+	{
+		margin-left:15%;
+		margin-right:15%;
+	}
+	
+}
+
